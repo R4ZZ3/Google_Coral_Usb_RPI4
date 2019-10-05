@@ -5,3 +5,16 @@ To install without compiling, please run:
 
 In the process you need to input admin password to copy files to /lib
 directory and install dependent libraries.
+
+Start:
+RPI4 running, Google Coral Usb not attached
+
+1. Clone this remo
+2. Run bash ./install.sh
+3. Connect Google Coral Usb
+4. Go to examples folder (python-tflite-source/edgetpu/examples)
+5. Run :
+python3 classify_image.py --model image_classification_models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite --label image_classification_models/inat_bird_labels.txt --image images/parrot.jpg
+ - Score should be something like 
+   Ara macao (Scarlet Macaw)
+   Score :  0.61328125
