@@ -10,7 +10,8 @@ Start:
 RPI4 running, Google Coral Usb not attached
 
 1. Clone this remo
-2. Run bash ./install.sh
+2. Run:
+bash ./install.sh
 3. Connect Google Coral Usb
 4. Go to examples folder (python-tflite-source/edgetpu/examples)
 5. Run :
