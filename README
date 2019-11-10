@@ -19,3 +19,10 @@ python3 classify_image.py --model image_classification_models/mobilenet_v2_1.0_2
  - Score should be something like 
    Ara macao (Scarlet Macaw)
    Score :  0.61328125
+
+
+
+Also I suggest working on RPI4 with conda environments to not mess up with packages for different projects and such.
+To install first do this:
+1. https://stackoverflow.com/questions/39371772/how-to-install-anaconda-on-raspberry-pi-3-model-b
+2. Then do this: sudo chown -R pi miniconda3
